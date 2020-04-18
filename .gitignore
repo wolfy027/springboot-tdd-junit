@@ -1,0 +1,6 @@
+.attach_pid19232
+.attach_pid20838
+src/test/java/com/hanselnpetal/controller/
+src/test/java/com/hanselnpetal/service/ContactsManagementServiceUnitTest.java
+target/test-classes/com/hanselnpetal/controller/
+target/test-classes/com/hanselnpetal/service/ContactsManagementServiceUnitTest.class

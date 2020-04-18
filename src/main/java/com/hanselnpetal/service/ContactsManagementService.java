@@ -8,22 +8,20 @@ import com.hanselnpetal.domain.CustomerContact;
 
 @Service
 public class ContactsManagementService {
-
 	@Autowired
 	private CustomerContactRepository customerContactRepository;
-	
+
 	public CustomerContact add(CustomerContact aContact) {
-		
-		CustomerContact newContact = customerContactRepository.save(aContact);
-		
-		return newContact;	
-	}
-	
-	/*
-	public CustomerContact addContactOccasion(CustomerContact aContact, ContactImportantOccasion anOccasion) {
 		CustomerContact newContact = null;
-		
-		return newContact;	
+		if (aContact.getFirstName() != null) {
+			newContact = customerContactRepository.save(aContact);
+		}
+		return newContact;
 	}
-	*/
+	/*
+	 * public CustomerContact addContactOccasion(CustomerContact aContact,
+	 * ContactImportantOccasion anOccasion) { CustomerContact newContact = null;
+	 * 
+	 * return newContact; }
+	 */
 }
