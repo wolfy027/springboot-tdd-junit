@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: springboot-tdd-junit
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: jomon
+Built-By: wolfy
 Implementation-Vendor-Id: com.test.poc
-Build-Jdk: 1.8.0_131
+Build-Jdk: 1.8.0_252
 Implementation-URL: http://projects.spring.io/spring-boot/springboot-t
  dd-junit/
 Created-By: Maven Integration for Eclipse
